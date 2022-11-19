@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<p>The information in database is:</p><br>
+<body>
+    
+    <p>First Name:  {{ rows[0] }}</p>
+    <p>Last Name: {{ rows[1] }}</p>
+    <p>Email : {{ rows[2] }}</p>
+    <p>Age:{{ rows[3] }}</p>
+
+    <a href = "modify.html"> Do you want to change? </a>>
+    <a href= "delete.html"> Do you want to delete the details? </a>
+</body>
+</html>
+
+
+<!-- <HTML>
+    <BODY bgcolor="cyan">
+    <form method="POST" action="">
+        <center>
+        <H1>Welcome To Blood Drive </H1> <br>
+        
+         <button type="button">Fetch my details</button> 
+
+        
+        First Name <input type = "text" name= "fname" placeholder = "{{rows[0]}}"/> <br>
+        Last Name <input type = "text" name = "lname" placeholder = "{{rows[1]}}"/> <br>
+         Email <input type = "text" name = "email" placeholder="{{rows[2]}}"/> <br> 
+        Age <input type = "text" name= "age" placeholder = "{{rows[3]}}"/> <br>
+        
+
+         <input type = "submit" name = "Insert"> <br>
+        <a href = "/modify"><button type = "button">Modify</button></a>
+        <!-- <button type="button" onclick="window.location.href='{{ url_for( 'modify') }}';">Modify</button>
+        <a href="/delete"><button type="button">Delete</button> 
+        <!-- <input type = "submit" name = "delete"> <br> 
+        </center>
+        
+    </form>
+    </BODY>
+    </HTML>-->
