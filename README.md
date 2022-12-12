@@ -1,4 +1,4 @@
-# The Blood Drive
+# Blood Donation Bootcamp
 Created final course project tutorial for CS 2300 (Introduction to Databases) while working on Python’s framework Flask to build a connection between Databases and MySQL
 
 This is a database tutorial using Python's framework Flask and MySQL which describes an entire process of connecting database to a basic UI in front-end.
